@@ -4,9 +4,12 @@
 
 > 欢迎使用Android-API，Android-API是一个简单的Android API文档生成工具，可以帮助开发者快速生成Android API
 >
-> 本项目来自What’s Blog.
->
+> 本项目来自：
 > ​        [What's Blog - 程序猿，给社会主义造 Bug (whatsblog.site)](https://www.whatsblog.site/)
+> 本项目地址：
+>
+> ​        [AndroidApi (github.com)](https://github.com/Suk-Li/AndroidApi)
+> ​        [AndroidApi (gitee.com)](https://gitee.com/Suk_Lee/AndroidApi)
 
 ## 1、项目说明
 
