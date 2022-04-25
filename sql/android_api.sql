@@ -24,9 +24,9 @@ DROP TABLE IF EXISTS `students`;
 CREATE TABLE `students`
 (
     `stu_id`       int(11)                                                 NOT NULL AUTO_INCREMENT,
-    `stu_name`     varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
-    `phone_number` varchar(11) CHARACTER SET utf8 COLLATE utf8_general_ci  NULL DEFAULT NULL,
-    `stu_image`    int(11)                                                 NULL DEFAULT NULL,
+    `stu_name`     varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+    `phone_number` varchar(11) CHARACTER SET utf8 COLLATE utf8_general_ci  NOT NULL,
+    `stu_image`    int(11)                                                 NOT NULL,
     PRIMARY KEY (`stu_id`) USING BTREE
 ) ENGINE = InnoDB
   AUTO_INCREMENT = 1
