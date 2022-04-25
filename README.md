@@ -5,10 +5,13 @@
 > 欢迎使用Android-API，Android-API是一个简单的Android API文档生成工具，可以帮助开发者快速生成Android API
 >
 > 本项目来自：
+>
 > ​        [What's Blog - 程序猿，给社会主义造 Bug (whatsblog.site)](https://www.whatsblog.site/)
+>
 > 本项目地址：
 >
-> ​        [AndroidApi (github.com)](https://github.com/Suk-Li/AndroidApi)
+> ​	[AndroidApi (github.com)](https://github.com/Suk-Li/AndroidApi)
+>
 > ​        [AndroidApi (gitee.com)](https://gitee.com/Suk_Lee/AndroidApi)
 
 ## 1、项目说明
@@ -27,11 +30,11 @@
 
 本项目主要通过SpringBoot+Mybatis实现API功能，使用Maven管理依赖，具体内容如下
 
-* Maven 3.6+
-* SpringBoot 2.6.7
-* mybatis-spring-boot 2.2.2
-* mysql-connector-java 8.0.28
-* lombok 1.18
+- Maven 3.6+
+- SpringBoot 2.6.7
+- mybatis-spring-boot 2.2.2
+- mysql-connector-java 8.0.28
+- lombok 1.18
 
 使用时只需要运行`AndroidApiApplication`即可
 
@@ -57,12 +60,12 @@
 
 API以JSON交互，所有API将以以下格式返回：
 
-~~~shell
+```shell
 {
   "result": ... ,
   "code": 200
 }
-~~~
+```
 
 | 键名   | 解释说明                         |
 | ------ | -------------------------------- |
@@ -82,4 +85,3 @@ http://localhost:8080/student/list    、    http://localhost:8080/student/get/1
 | 更新       | /update      | GET/POST/PUT/DELETE/... | JSON格式，键名必须与其保持一致：{"stuId": 12,"stuName": "Sigma","phoneNumber": "10087","stuImage": 2131165332} |
 | 插入       | /insert      | GET/POST/PUT/DELETE/... | {"stuId": 12,"stuName": "Sigma","phoneNumber": "10087","stuImage": 2131165332} |
 | 查询所有   | /list        | GET/POST/PUT/DELETE/... | 无参数                                                       |
-
